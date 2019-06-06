@@ -10,6 +10,9 @@
 		73F9744622A3988100667EFE /* VideoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73F9744522A3988100667EFE /* VideoTableViewController.swift */; };
 		73F9744822A398AF00667EFE /* VideoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73F9744722A398AF00667EFE /* VideoTableViewCell.swift */; };
 		73F9744A22A39E7300667EFE /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73F9744922A39E7300667EFE /* Video.swift */; };
+		73F9744E22A8D27600667EFE /* SavedVideosCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73F9744D22A8D27600667EFE /* SavedVideosCollectionViewCell.swift */; };
+		73F9745022A8D52300667EFE /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73F9744F22A8D52300667EFE /* MainTabBarController.swift */; };
+		73F9745222A8D95300667EFE /* SavedVideosCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73F9745122A8D95300667EFE /* SavedVideosCollectionViewController.swift */; };
 		73FC005922A39101005C8BE1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73FC005822A39101005C8BE1 /* AppDelegate.swift */; };
 		73FC005B22A39101005C8BE1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73FC005A22A39101005C8BE1 /* ViewController.swift */; };
 		73FC005E22A39101005C8BE1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 73FC005C22A39101005C8BE1 /* Main.storyboard */; };
@@ -21,6 +24,9 @@
 		73F9744522A3988100667EFE /* VideoTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoTableViewController.swift; sourceTree = "<group>"; };
 		73F9744722A398AF00667EFE /* VideoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoTableViewCell.swift; sourceTree = "<group>"; };
 		73F9744922A39E7300667EFE /* Video.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Video.swift; sourceTree = "<group>"; };
+		73F9744D22A8D27600667EFE /* SavedVideosCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedVideosCollectionViewCell.swift; sourceTree = "<group>"; };
+		73F9744F22A8D52300667EFE /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		73F9745122A8D95300667EFE /* SavedVideosCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedVideosCollectionViewController.swift; sourceTree = "<group>"; };
 		73FC005522A39101005C8BE1 /* UserDefaultsNSCoding.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UserDefaultsNSCoding.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		73FC005822A39101005C8BE1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		73FC005A22A39101005C8BE1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -45,6 +51,8 @@
 			isa = PBXGroup;
 			children = (
 				73F9744522A3988100667EFE /* VideoTableViewController.swift */,
+				73F9744F22A8D52300667EFE /* MainTabBarController.swift */,
+				73F9745122A8D95300667EFE /* SavedVideosCollectionViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -53,6 +61,7 @@
 			isa = PBXGroup;
 			children = (
 				73F9744722A398AF00667EFE /* VideoTableViewCell.swift */,
+				73F9744D22A8D27600667EFE /* SavedVideosCollectionViewCell.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -170,7 +179,10 @@
 			files = (
 				73F9744622A3988100667EFE /* VideoTableViewController.swift in Sources */,
 				73F9744822A398AF00667EFE /* VideoTableViewCell.swift in Sources */,
+				73F9745222A8D95300667EFE /* SavedVideosCollectionViewController.swift in Sources */,
+				73F9745022A8D52300667EFE /* MainTabBarController.swift in Sources */,
 				73FC005B22A39101005C8BE1 /* ViewController.swift in Sources */,
+				73F9744E22A8D27600667EFE /* SavedVideosCollectionViewCell.swift in Sources */,
 				73FC005922A39101005C8BE1 /* AppDelegate.swift in Sources */,
 				73F9744A22A39E7300667EFE /* Video.swift in Sources */,
 			);
